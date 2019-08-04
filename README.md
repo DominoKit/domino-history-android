@@ -1,6 +1,6 @@
 # domino-history-android
 
-Adding support for [domino-rest](https://github.com/DominoKit/domino-history) in android applications.
+Adding support for [domino-history](https://github.com/DominoKit/domino-history) in android applications.
 
 **Please note that the library needs a minimum SDK version 24 and it uses Java 8.**
 
