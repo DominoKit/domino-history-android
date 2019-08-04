@@ -32,5 +32,26 @@ packagingOptions {
 }
 ```
 
+## Usage
+
+#### Initializing the context
+
+First step to start working with domino-history is to initialize a domino history instance
+ 
+```
+AndroidDominoHistory history = new AndroidDominoHistory(); 
+```
+
+Then you can listen to a state by
+```java
+history.listen(state -> {
+    
+});
+```
+Also, fire tokens by
+```java
+history,fireState("some token");
+```
+
 #### for other features, please refer to [the main documentation for domino-history](https://github.com/DominoKit/domino-history)
 =======
